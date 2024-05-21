@@ -14,7 +14,7 @@ def print_all_artists():
     #loop through all the results
     print(f"First name        last name         stage name          genre         debut year     country")
     for artist in results:
-        print(f"{artist[1]:<20} {artist[2]:<20} {artist[3]:<8} {artist[4]:<10} {artist[5]:<16} {artist[6]:<16}")
+        print(f"{artist[1]:<20} {artist[2]:<20} {artist[3]:<6} {artist[4]:<10} {artist[5]:<20} {artist[6]:<20}")
 
     db.close
     
