@@ -12,7 +12,7 @@ def print_all_artists():
     cursor.execute(sql)
     results = cursor.fetchall()
     #loop through all the results
-    print(f"First name             last name      stage name          genre         debut year     country")
+    print(f"First name        last name      stage name          genre         debut year     country")
     for artist in results:
         print(f"{artist[1]:<20} {artist[2]:<20} {artist[3]:<15} {artist[4]:<15} {artist[5]:<15} {artist[6]:<15}")
 
